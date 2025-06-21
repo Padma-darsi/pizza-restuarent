@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:black;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 8px 5px 10px black;
+  padding: 10px;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.brand {
+    
+    color: #ffffff;
+    font-family: Ruda;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.icons
+{
+    width: 35px;
+    height:35px;
+}
+.links > ul {
+  display: flex;
+  align-items: center;
+}
+.links > ul li {
+  list-style-type: none;
+}
+.links > ul > li > a {
+  text-decoration: none;
+  color:white;
+  padding-inline: 20px;
+}
+.card
+{
+  background-image:url("pizza.jpg");
+  background-size:cover;
+  width:100vw;
+  height:100vh;
+  border:1px solid rgb(73, 73, 96);
+  background-repeat:no-repeat;
+  background-color:black;
+  border-radius:10px;
+  margin:20px;
+}
+.card>h1
+{
+color:white;
+width: 902px;
+height: 215px;
+font-family: Quattrocento;
+font-weight: 500;
+font-size: 80px;
+text-align: center;
+box-shadow: 8px 5px 10px hwb(31 29% 5%);
+padding:20px;
+}
+#content
+{
+color:white;
+text-align:justify;
+padding-left:340px;
+Line-height:30px;
+letter-spacing:9%;
+font-family:Montserrat;
+}
+.about
+{
+  color:white;
+  background-color: black;
+  text-align:center;
+  text-decoration: underline red;
+  text-underline-offset:15px;;
+  
+}
+.card2
+{
+  width:100vw;
+  height:400px;
+  background-color:black;
+  padding:20px;
+} 
+.paras
+{
+  color:white;
+  text-align:justify;
+  
+
+}
+.main-container
+{
+  width:100vw;
+  
+  background-color:black;
+}
+.img1
+{
+  width:400px;
+  height:300px;
+  padding-left:400px;
+  padding-top:20px;
+}
+.card2a
+{
+  display:flex;
+  align-items:center;
+  gap:60px;
+}
+.card3
+{
+  width:800px;
+  height:800px;
+  padding-left:30px;
+  margin-left:350px;
+}
+.menu
+{
+  color:white;
+  text-align:center;
+  text-decoration:underline red;
+  text-underline-offset:10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:30px;
+}
+.menu-para
+{
+  color:white;
+  text-align:justify;
+  padding:20px;
+  padding-left:50px;
+}
+.card3a
+{
+  width:500px;
+  height:200px;
+  display:flex;
+  gap:10px;
+  padding:20px;
+}
+.pimag
+{
+  width:250px;
+  height:200px;
+}
+.card-heading
+{
+  color:#F2C94C;
+  font-size:20px;
+  font-weight:400;
+}
+.card-info
+{
+  color:white;
+  font-size:16px;
+}
+.minicards
+{
+ display:flex;
+}
+.col-a
+{
+  padding:20px;
+  margin-top:10px;
+}
+.col-b
+{
+  padding:20px;
+  margin-top:10px;
+}
+
+
+
+
+
+
+.head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  background-color: antiquewhite;
+}
+.head>h3{
+  display: center;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 50px;
+  text-decoration-color:darkred ;
+}
+
+.slider{
+  position: relative;
+  width:50%;
+  overflow: hidden;
+  height: 30%;
+  border: 1px solid lightgray;
+  
+}
+.images{
+  display: flex;
+  width: 100%;
+ 
+}
+.images img{
+  width:100%;
+  height: 100vh;
+  transition: all 0.15s ease;
+  border-radius: 5px;
+
+}
+.images input{
+  display: none;
+}
+.dots{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.dots label{
+  height: 15px;
+  width:15px;
+  border: solid #a60f83 3px;
+  border-radius: 50%;
+  margin: 2px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.dots label:hover {background: black ;}
+#pic1:checked ~ .m1{
+  margin-left: 0;
+}
+#pic2:checked ~ .m2{
+  margin-left: -100%;
+}
+#pic3:checked ~ .m3{
+  margin-left: -200%;
+}
+#pic4:checked ~ .m4{
+  margin-left: -300%;
+}
+#pic5:checked ~ .m5{
+  margin-left: -400%;
+}
+
+
+.gallary
+{
+  width:800px;
+  height:400px;
+  background-color: purple;
+}
+.gallary-heading
+{
+  color:white;
+  text-align:center;
+}
+.g1
+{
+  width:400px;
+  height:400px;
+}
+#g2
+{
+  width:200px;
+  height:200px;
+}
+#g3
+{
+  width:200px;
+  height:100px;
+}
+#g4
+{
+  width:200px;
+  height:100px;
+  display:flex;
+  flex-direction: column;
+}
+#g5
+{
+  width:200px;
+  height:200px;
+}
+#g6
+{
+  width:200px;
+  height:200px;
+}
+.gallary
+{
+  display:flex;
+  gap:3px;
+}
+.col2
+{
+  display:flex;
+  flex-direction: column;
+}
+.location-card
+{
+  width:800px;
+  height:600px;
+  background-color: #a60f83;
+}
+
+
+.icons{
+
+  display:flex;
+  justify-content: space-between;
+  color:white;
+}
